@@ -1,21 +1,22 @@
 ## You should change each of the following fields
 ## to customize your blog
 
-title: Stat 386 Blog
-description: "This description of the blog will appear on the 'About' page." 
-author: Your name
-author_description: "This description of who you are will appear on the 'About' page." 
+title: My Stat 386 Blog
+description: "This will have a more detailed description about my Stat 386 blog." 
+author: Liz Mendoza
+author_description: "Senior at Brigham Young University studying Statistics with a Data Science emphasis.
+Double minoring in Business and Information Systems." 
 
-url: https://esnt.github.io ## change this to https://yourusername.github.io
-baseurl: /another-stat386-theme ## change this to the name of your blog repository
+url: https://LiztheWz.github.io ## change this to https://yourusername.github.io
+baseurl: /My386Blog ## change this to the name of your blog repository
 header_image: /assets/img/headerimg.jpg ## change your header image if you want
 
 ## Add your social media user names.  Github is required, the rest are optional
 social:
-    github:  ## required
+    github: LiztheWz
     twitter: 
     facebook: 
-    email: 
+    email: lizethm3@byu.edu
     linkedin: 
     youtube: 
     tumblr: 
