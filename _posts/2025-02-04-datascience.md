@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Data Science for Dummies"
-description: New to data science? Perfect! Ever wanted a basic, simple rundown of data science? You've come to the right place. So relax, no fancy mambo jambo words here. This will be super easy for you to understand. I promise.
+description: "New to data science? Perfect! Ever wanted a basic, simple rundown of data science? You've come to the right place. So relax, no fancy mambo jambo words here. This will be super easy for you to understand. I promise."
 image: /assets/img/blog-image.jpg
 ---
 
