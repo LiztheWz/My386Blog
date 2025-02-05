@@ -47,7 +47,7 @@ In order to do so, we need tools. In data science there are so many programming 
 This is the part of the data science process where we want to get insights. It's the "so what?" part. So yeah, we have all this data and information but it's not that useful until I get some kind of conclusion from it. All data is useless if you can't draw a conclusion. So we have to sort it, analyze it, then present it. During the EDA process it's good to ask yourself, "what do I want to know? What do I have to do to this dataset to find out?" 
 
 ### 4. Data Visualization
-This is the part where the beautiful cookies finally come out of the oven and we get to decorate them! So after we analyze the data, we have to present it. This is when we can create graphs, charts, and plots to make our data visually appealing for viewers.
+This is the part where the beautiful cookies finally come out of the oven and we get to decorate them! So after we analyze the data, we have to present it. This is when we can create graphs, charts, and plots to make our data visually appealing for viewers. We could use different platforms to do so, such as: Tableau, Matplotlib, and Seaborn.
 
 Which type of presentation you want to use will depend on your type of data. We could use line graphs, histograms, box plots, scatter plots, bar charts, etc. Then we present our product!
 
