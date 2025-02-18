@@ -28,11 +28,14 @@ In this post I'll be taking you through the instructions! Here's a quick overvie
 
 This isn't really EVERYTHING, but it's the basics of what one should know. So by the end of this post, if someone asks "what is data science?" you should be able to respond with ease! Let's dive in...
 
+{% raw %}![Figure]({{site.url}}/{{site.baseurl}}/assets/img/ingredients.jpg){% endraw %}
 
 ##### 1. Data Collection 
 In the cookie example, this is the part of the instructions that wants you to gather all your ingredients. Gather all the data you need! We can do this in several ways:
 
 Direct collection - you go out and gather the data yourself. You can do this through surveys, experiments, observations, interviews, etc. This is anything that requires you to gather data first-hand. Or you could get pre-existing data that someone else already collected and has it all organized for you in a big table (dataset). A lot of websites nowadays have datasets ready for the taking. You would just need to webscrape it (take data from websites)!
+
+{% raw %}![Figure]({{site.url}}/{{site.baseurl}}/assets/img/cleandata.png){% endraw %}
 
 ##### 2. Data Cleaning
 We want to double check to make sure none of our cookie ingredients have expired or have gotten bad. So double check on the eggs, butter, vanilla, etc. Just like a manufacturing company has a section that detects weird, abnormal products, we also need to detect any abnormal or "dirty" data in our datasets.
@@ -41,6 +44,8 @@ The way we do this is by handling missing values, outliers (data very extreme fr
 
 No one would like to eat cookies made with rotten eggs right? Well, no one really wants to receive "dirty data" either. 
 
+{% raw %}![Figure]({{site.url}}/{{site.baseurl}}/assets/img/cleandata.png){% endraw %}
+
 ##### 3. Exploratory Data Analysis (EDA)
 When you are making cookies, this is the mixing and baking part of the instructions. This is the part where statistics, math, and computer science meet. Here we manipulate data to identify trends, patterns, and make predictions.
 
@@ -48,21 +53,27 @@ In order to do so, we need tools. In data science there are so many programming 
 
 This is the part of the data science process where we want to get insights. It's the "so what?" part. So yeah, we have all this data and information but it's not that useful until I get some kind of conclusion from it. All data is useless if you can't draw a conclusion. So we have to sort it, analyze it, then present it. During the EDA process it's good to ask yourself, "what do I want to know? What do I have to do to this dataset to find out?" 
 
+{% raw %}![Figure]({{site.url}}/{{site.baseurl}}/assets/img/coolpic.png){% endraw %}
+
 ##### 4. Data Visualization
 This is the part when the beautiful cookies finally come out of the oven and we get to decorate them! After the analysis is finished, we have to present our findings. This is where we can create graphs, charts, and plots to make our data visually appealing for viewers. We could use different platforms to do so such as <a href="https://www.tableau.com/why-tableau/what-is-tableau" target="_blank">Tableau</a>, <a href="https://matplotlib.org" target="_blank">Matplotlib</a>, and <a href="https://seaborn.pydata.org" target="_blank">Seaborn</a>.
 
 The type of presentation you want to use will depend on your type of data. We could use line graphs, histograms, box plots, scatter plots, bar charts, etc:
 
 ###### Line Graph
+{% raw %}![Figure]({{site.url}}/{{site.baseurl}}/assets/img/linegraph.png){% endraw %}
 
 ###### Histogram
+{% raw %}![Figure]({{site.url}}/{{site.baseurl}}/assets/img/histogram.jpg){% endraw %}
 
 ###### Box Plot
+{% raw %}![Figure]({{site.url}}/{{site.baseurl}}/assets/img/boxplot.jpg){% endraw %}
 
 ###### Scatter Plot
+{% raw %}![Figure]({{site.url}}/{{site.baseurl}}/assets/img/scatterplot.png){% endraw %}
 
 ###### Bar Chart
-
+{% raw %}![Figure]({{site.url}}/{{site.baseurl}}/assets/img/barchart.png){% endraw %}
 
 Then we present our product!
 
