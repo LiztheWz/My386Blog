@@ -61,7 +61,7 @@ I'll wait...
 
 This specific page has a line graph over time of net worth, assets, and debt of households from the years 2017-2022. Click on the dark blue tab at the top that says "Net Worth" then click on the dropdown arrow where it says "Select chart." As you can see there's multipe options available, go ahead and click "Education." You should see a nice line graph that looks like this:
 
-![Figure]({{site.url}}/{{site.baseurl}}/assets/img/networth.jpg)
+{% raw %}![Figure]({{site.url}}/{{site.baseurl}}/assets/img/networth.jpg){% endraw %}
 
 
 This is a graph that somebody already made. They collected data from the census, cleaned it, analyzed it, then made this nice graph. Now if we were them, we could tell a nice story and make a prediction of whether or not the level of education completed correlates (influences) with the net worth of a household. 
