@@ -68,11 +68,10 @@ This is a graph that somebody already made. They collected data from the census,
 
 If I were the storyteller here, I would say that the higher the level of education completed, the higher the net worth of a household. Then I could make a decision of whether or not I wanted to pursue a graduate degree or not. Based off of the information the graph provides, I would pursue a graduate degree, knowing that my household's net worth would also increase.
 
+## Wrap-up
+Okay ladies and gents, that was a quick overview of data science! Younger me would be so proud to explain to her Mexican parents what data science is. It's the collection, cleaning, manipulation, and presentation of data. Just like baking cookies. 
 
- ## Wrap-up
- Okay ladies and gents, that was a quick overview of data science! Younger me would be so proud to explain to her Mexican parents what data science is. It's the collection, cleaning, manipulation, and presentation of data. Just like baking cookies. 
-
- If you felt comfortable with the explanation in this post, go ahead and check out other advanced websites about data science! Keep learning and expanding. If you know anyone who is also curious to know what data science is, share this post with them! If they don't want to read it because they think they'll get confused, let them know it's Data Science for Dummies.
+If you felt comfortable with the explanation in this post, go ahead and check out other advanced websites about data science! Keep learning and expanding. If you know anyone who is also curious to know what data science is, share this post with them! If they don't want to read it because they think they'll get confused, let them know it's Data Science for Dummies.
 
 
 
