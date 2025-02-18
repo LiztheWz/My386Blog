@@ -30,30 +30,47 @@ This isn't really EVERYTHING, but it's the basics of what one should know. So by
 
 
 ##### 1. Data Collection 
-In the cookie example, this is the recipe, the part of the instructions that wants you to gather all your ingredients. Gather all the data you need! We can do this in several ways:
+In the cookie example, this is the part of the instructions that wants you to gather all your ingredients. Gather all the data you need! We can do this in several ways:
 
 Direct collection - you go out and gather the data yourself. You can do this through surveys, experiments, observations, interviews, etc. This is anything that requires you to gather data first-hand. Or you could get pre-existing data that someone else already collected and has it all organized for you in a big table (dataset). A lot of websites nowadays have datasets ready for the taking. You would just need to webscrape it (take data from websites)!
 
 ##### 2. Data Cleaning
-Just like a manufacturing company has a section that detects weird, abnormal products, we also need to detect any abnormal data in our datasets. The way we do this is by handling missing values, outliers (data very extreme from others), removing duplicate values, and correcting inconsistencies. 
+We want to double check to make sure none of our cookie ingredients have expired or have gotten bad. So double check on the eggs, butter, vanilla, etc. Just like a manufacturing company has a section that detects weird, abnormal products, we also need to detect any abnormal or "dirty" data in our datasets.
 
-For example, let's say that a dataset has a column named "State." You have some rows that have "NY" and others that have "New York." They're the same thing but they're detected as different, so we have to fix inconsistencies like this, so they're all the same.
+The way we do this is by handling missing values, outliers (data very extreme from others), removing duplicate values, and correcting inconsistencies. For example, let's say that a dataset has a column named "State." You have some rows that have "NY" and others that have "New York." They're the same thing but they're detected as different, so we have to fix inconsistencies like this, so they're all the same. If we have any missing values in the rows, we should probably get rid of those too (if appropriate).
+
+No one would like to eat cookies made with rotten eggs right? Well, no one really wants to receive "dirty data" either. 
 
 ##### 3. Exploratory Data Analysis (EDA)
-When you are making cookies, this is the mixing part of the instructions. This is the part where statistics, math, and computer science meet. Here we manipulate data to identify trends, patterns, and make predictions.
+When you are making cookies, this is the mixing and baking part of the instructions. This is the part where statistics, math, and computer science meet. Here we manipulate data to identify trends, patterns, and make predictions.
 
-In order to do so, we need tools. In data science there are so many programming languages we can use but the most efficient and popular ones are Python (not the snake), R, and SQL (pronounced sequel). When we are baking, we have different measuring cups; in data science, we have different programming languages that all have specific strengths.
+In order to do so, we need tools. In data science there are so many programming languages we can use but the most efficient and popular ones are <a href="https://www.python.org" target="_blank">Python</a> (not the snake), <a href="https://www.r-project.org/about.html" target="_blank">R</a>, and <a href="https://www.codecademy.com/catalog/language/sql?g_network=g&g_productchannel=&g_adid=624951458056&g_locinterest=&g_keyword=sql%20for%20beginners&g_acctid=243-039-7011&g_adtype=&g_keywordid=kwd-1924370498&g_ifcreative=&g_campaign=account&g_locphysical=1026980&g_adgroupid=102526215778&g_productid=&g_source=%7Bsourceid%7D&g_merchantid=&g_placement=&g_partition=&g_campaignid=10030170703&g_ifproduct=&utm_id=t_kwd-1924370498:ag_102526215778:cp_10030170703:n_g:d_c&utm_source=google&utm_medium=paid-search&utm_term=sql%20for%20beginners&utm_campaign=US_Language:_Basic_-_Exact&utm_content=624951458056&g_adtype=search&g_acctid=243-039-7011&gad_source=1&gbraid=0AAAAAon8KZHZivikF_SZk0gftp9GP_Cqx&gclid=Cj0KCQiA_NC9BhCkARIsABSnSTb3B968wRvW9Z6UdfSlRGgbM8ijm-AsVRVGIhAlY2Qpjg_UdhtrktYaAiv8EALw_wcB" target="_blank">SQL</a> (pronounced sequel). When we are baking, we have different measuring cups; in data science, we have different programming languages that all have specific strengths.
 
 This is the part of the data science process where we want to get insights. It's the "so what?" part. So yeah, we have all this data and information but it's not that useful until I get some kind of conclusion from it. All data is useless if you can't draw a conclusion. So we have to sort it, analyze it, then present it. During the EDA process it's good to ask yourself, "what do I want to know? What do I have to do to this dataset to find out?" 
 
 ##### 4. Data Visualization
-This is the part where the beautiful cookies finally come out of the oven and we get to decorate them! After the analysis is finished, we have to present our findings. This is where we can create graphs, charts, and plots to make our data visually appealing for viewers. We could use different platforms to do so such as Tableau, Matplotlib, and Seaborn.
+This is the part when the beautiful cookies finally come out of the oven and we get to decorate them! After the analysis is finished, we have to present our findings. This is where we can create graphs, charts, and plots to make our data visually appealing for viewers. We could use different platforms to do so such as <a href="https://www.tableau.com/why-tableau/what-is-tableau" target="_blank">Tableau</a>, <a href="https://matplotlib.org" target="_blank">Matplotlib</a>, and <a href="https://seaborn.pydata.org" target="_blank">Seaborn</a>.
 
-The type of presentation you want to use will depend on your type of data. We could use line graphs, histograms, box plots, scatter plots, bar charts, etc. Then we present our product!
+The type of presentation you want to use will depend on your type of data. We could use line graphs, histograms, box plots, scatter plots, bar charts, etc:
+
+###### Line Graph
+
+###### Histogram
+
+###### Box Plot
+
+###### Scatter Plot
+
+###### Bar Chart
+
+
+Then we present our product!
 
 
 ##### 5. Decision-Making
-Now that we have a nice graph, chart, or plot, we can tell a story and make predictions. We can use the insights that we've gained during this process to guide our decision-making process. Let's look at an example!
+Now that we have all of our cookies, we tasted them, we can make a conclusion on which flavors we like best. We can say whether chocolate-chip-oatmeal cookies are a nice combo or if white-chocolate-peanut-butter is a tasty combo or not. We can share with our family and friends how we came up with the combination and how enjoyable (or not) the process was.
+
+In other words, after we have a nice graph, chart, or plot, we can tell a story and make predictions. We can use the insights that we've gained during this process to guide our decision-making process. Let's look at an example!
 
 This following link will take you to a page of the United States Census Bureau website. Go ahead and clink on this <a href="https://www.census.gov/library/visualizations/interactive/assets-and-debts.html" target="_blank">link</a>
 
@@ -71,7 +88,7 @@ If I were the storyteller here, I would say that the higher the level of educati
 #### Wrap-up
 Okay ladies and gents, that was a quick overview of data science! Younger me would be so proud to explain to her Mexican parents what data science is. It's the collection, cleaning, manipulation, and presentation of data. Just like baking cookies. 
 
-If you felt comfortable with the explanation in this post, go ahead and check out other advanced websites about data science! Keep learning and expanding. If you know anyone who is also curious to know what data science is, share this post with them! If they don't want to read it because they think they'll get confused, let them know it's Data Science for Dummies.
+If you felt comfortable with the explanation in this post, go ahead and check out IBM's page about data science <a href="https://www.ibm.com/think/topics/data-science" target="_blank">here</a>! Keep learning and expanding. If you know anyone who is also curious to know what data science is, share this post with them! If they don't want to read it because they think they'll get confused, let them know it's Data Science for Dummies.
 
 
 
