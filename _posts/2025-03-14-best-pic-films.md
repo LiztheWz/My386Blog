@@ -36,7 +36,7 @@ Hopefully just by looking at these, we can figure out whether or not there's a p
 
 
 
-##### Data Collection
+#### Data Collection
 This is the part that I think every data scientist or analyst underestimates. It can't be THAT hard right? WRONG. Get ready to get your hands dirty during this process. 
 
 Where was I going to get all the information about the films? If you're thinking IMDb, then you're just as wrong as I was... Turns out that IMDb is super protective about their films' information and because I didn't want to pay $10,000 to get data, I had to look elsewhere. And I looked. And looked. And looked.
@@ -47,14 +47,14 @@ Still missing some data, a friend of mine recommended using an API from <a href=
 
 
 
-###### Tag, You're It
+#### Tag, You're It
 You can do this too by using BeautifulSoup on Python. Using the HTML parser, you can webscrape the year and title right off of the table in the Wikipedia page <a href="https://en.wikipedia.org/wiki/Academy_Award_for_Best_Picture" target="_blank">(link)</a>. Finding out whether it won or not is trickier, you want to find a way where it identifies when the title is highlighted (winner) versus when it's not (nominee). For the distributor and producers, you'll have to webscrape the Wikipedia link to the film and go through there to identify the distributors and producers for each film.
 
 For the OMDb API, you'll have to request a key (super easy). Again, using BeautifulSoup and your API key, pass through all the films' titles and years released. The API should output the necessary information - you just need to extract it.
 
 
 
-##### Data Cleaning
+#### Data Cleaning
 I wish I could say that cleaning the data was all fun and rainbows, but it was super tedious.
 First off, the OMDb API won't have the necessary information for older films so I excluded the years 1927-1933. You don't have to exclude them, but I did because it's neater. 
 
@@ -72,7 +72,7 @@ Convert if necessary. Create a dataframe with all of them. Should look like the 
 
 ![Figure]({{site.url}}/{{site.baseurl}}/assets/img/dataframehead.png)
 
-##### Several Fun Facts
+### Several Fun Facts
 
 After gathering all the data I needed, I wanted to share some quick highlights that I learned! Some are basic information, others are more interesting! I hope you learn something just as much as me!
 
@@ -143,7 +143,7 @@ There are a lot more highlights but for the sake of this post, those are the one
 
 ![Figure]({{site.url}}/{{site.baseurl}}/assets/img/2025oscars.jpg)
 
-##### Summary
+## Summary
 As far as I observe, none of the categorical variables has a strong influence on whether or not a film wins the Academy Award for Best Picture. The distributor has a slight effect; if a film has one of the top distributors for their film, they are more likely to win Best Picture. However, for the rest of the categorical variables there wasn't a strong influence. It is mere talent on the film's team for winning Best Picture and maybe a bit of luck.
 
 Among the continuous variables, a film is more likely to win if their IMDb rating is 8 or higher. The runtime makes no difference.
