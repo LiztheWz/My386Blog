@@ -74,10 +74,7 @@ Convert if necessary. Create a dataframe with all of them. Should look like the 
 
 ##### Several Fun Facts
 
-![Figure]({{site.url}}/{{site.baseurl}}/assets/img/didyouknow.jpg)
-
-After gathering all the data I needed, I wanted to share some quick highlights that I learned! Some are basic information, others are more interesting! I hope you learn something just as much as me.
-
+After gathering all the data I needed, I wanted to share some quick highlights that I learned! Some are basic information, others are more interesting! I hope you learn something just as much as me!
 
 Number of observations (films): 575
 Winners: 91
@@ -107,6 +104,8 @@ Top 10 genres among Best Picture winners:
 8. Family & Thriller (6)
 9. Music (4)
 10. Mystery, Action, & Sport (3)
+
+![Figure]({{site.url}}/{{site.baseurl}}/assets/img/didyouknow.jpg)
 
 Top Best Picture Directors (nominated/winners):
 1. William Wyler (13)
@@ -140,56 +139,15 @@ Distributions for IMDb Ratings & Runtime:
 ![Figure]({{site.url}}/{{site.baseurl}}/assets/img/runtime.jpg)
 
 
-
 There are a lot more highlights but for the sake of this post, those are the ones I found most interesting!
 
+![Figure]({{site.url}}/{{site.baseurl}}/assets/img/2025oscars.jpg)
 
 ##### Summary
-This is the part when the beautiful cookies finally come out of the oven and we get to decorate them! After the analysis is finished, we have to present our findings. This is where we can create graphs, charts, and plots to make our data visually appealing for viewers. We could use different platforms to do so such as <a href="https://www.tableau.com/why-tableau/what-is-tableau" target="_blank">Tableau</a>, <a href="https://matplotlib.org" target="_blank">Matplotlib</a>, and <a href="https://seaborn.pydata.org" target="_blank">Seaborn</a>.
+As far as I observe, none of the categorical variables has a strong influence on whether or not a film wins the Academy Award for Best Picture. The distributor has a slight effect; if a film has one of the top distributors for their film, they are more likely to win Best Picture. However, for the rest of the categorical variables there wasn't a strong influence. It is mere talent on the film's team for winning Best Picture and maybe a bit of luck.
 
-The type of presentation you want to use will depend on your type of data. We could use line graphs, histograms, box plots, scatter plots, bar charts, etc:
+Among the continuous variables, a film is more likely to win if their IMDb rating is 8 or higher. The runtime makes no difference.
 
-###### Line Graph
-![Figure]({{site.url}}/{{site.baseurl}}/assets/img/linegraph.png)
+I am sure that if we were to retrieve data for ALL films released and whether or not they were nominated for Best Picture, we could find greater results. But what determines the winner among the nominees is up to the judges... and maybe a bit of luck.
 
-###### Histogram
-![Figure]({{site.url}}/{{site.baseurl}}/assets/img/histogram.jpg)
-
-###### Box Plot
-![Figure]({{site.url}}/{{site.baseurl}}/assets/img/boxplot.jpg)
-
-###### Scatter Plot
-![Figure]({{site.url}}/{{site.baseurl}}/assets/img/scatterplot.png)
-
-###### Bar Chart
-![Figure]({{site.url}}/{{site.baseurl}}/assets/img/barchart.png)
-
-Then we present our product!
-
-
-##### 5. Decision-Making
-Now that we have all of our cookies, we tasted them, we can make a conclusion on which flavors we like best. We can say whether chocolate-chip-oatmeal cookies are a nice combo or if white-chocolate-peanut-butter is a tasty combo or not. We can share with our family and friends how we came up with the combination and how enjoyable (or not) the process was.
-
-In other words, after we have a nice graph, chart, or plot, we can tell a story and make predictions. We can use the insights that we've gained during this process to guide our decision-making process. Let's look at an example!
-
-This following link will take you to a page of the United States Census Bureau website. Go ahead and clink on this <a href="https://www.census.gov/library/visualizations/interactive/assets-and-debts.html" target="_blank">link</a>
-
-I'll wait...
-
-This specific page has a line graph over time of net worth, assets, and debt of households from the years 2017-2022. Click on the dark blue tab at the top that says "Net Worth" then click on the dropdown arrow where it says "Select chart." As you can see there's multipe options available, go ahead and click "Education." You should see a nice line graph that looks like this:
-
-![Figure]({{site.url}}/{{site.baseurl}}/assets/img/networth.jpg)
-
-
-This is a graph that somebody already made. They collected data from the census, cleaned it, analyzed it, then made this nice graph. Now if we were them, we could tell a nice story and make a prediction of whether or not the level of education completed correlates (influences) with the net worth of a household. 
-
-If I were the storyteller here, I would say that the higher the level of education completed, the higher the net worth of a household. Then I could make a decision of whether or not I wanted to pursue a graduate degree or not. Based off of the information the graph provides, I would pursue a graduate degree, knowing that my household's net worth would also increase.
-
-#### Wrap-up
-Okay ladies and gents, that was a quick overview of data science! Younger me would be so proud to explain to her Mexican parents what data science is. It's the collection, cleaning, manipulation, and presentation of data. Just like baking cookies. 
-
-If you felt comfortable with the explanation in this post, go ahead and check out IBM's page about data science <a href="https://www.ibm.com/think/topics/data-science" target="_blank">here</a>! Keep learning and expanding. If you know anyone who is also curious to know what data science is, share this post with them! If they don't want to read it because they think they'll get confused, let them know it's Data Science for Dummies.
-
-
-
-
+If you would like to see the Academy Award for Best Picture winners ranked, feel free to follow this <a href="https://editorial.rottentomatoes.com/guide/oscars-best-and-worst-best-pictures/" target="_blank">Rotten Tomatoes</a> page. The following link will also take you to my <a href="https://github.com/LiztheWz/filmcode" target="_blank">Github</a> if you'd like to take a look at the code! Happy watching!
