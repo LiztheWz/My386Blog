@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "And the Oscar Goes To..."
 description: "me, who spent countless of hours on this project. Just kidding! But seriously, what determines if a movie gets nominated and wins the Academy Award's Best Picture? Is it luck? Can it be predicted? Let's find out together..."
+title:  "And the Oscar Goes To..."
 image: /assets/img/oscars.jpg
 ---
 
 
-## A Little Fun Fact
-
 ![Figure]({{site.url}}/{{site.baseurl}}/assets/img/family.jpg)
+
+## A Little Fun Fact
 
 I watched a lot of movies growing up with my parents. But not the fairytale princess movies. We're talking about every type of genre with basically every type of accent you could think of. The way for my parents to learn and understand English, was watching movies. My siblings and I would join and help translate along the way if they ever had any questions. By now, my parents are better at understanding a British accent than me...
 
