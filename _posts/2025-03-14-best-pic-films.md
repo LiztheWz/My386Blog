@@ -40,17 +40,17 @@ This is the part that I think every data scientist or analyst underestimates. It
 
 Where was I going to get all the information about the films? If you're thinking IMDb, then you're just as wrong as I was... Turns out that IMDb is super protective about their films' information and because I didn't want to pay $10,000 to get data, I had to look elsewhere. And I looked. And looked. And looked.
 
-Turns out that the only site that had a list of all the nominees and winners for Best Picture was the OG Wikipedia. Using this <a href="https://en.wikipedia.org/wiki/Academy_Award_for_Best_Picture" target="_blank">Academy Award for Best Picture</a> page, I was able to get the year, title, distributor, producers, and whether it won or not. 
+Turns out that the only site that had a list of all the nominees and winners for Best Picture was the OG Wikipedia. Since Wikipedia is a public website, it pretty much lets anyone publish anything and makes it available for everyone. Therefore, Wikipedia was safe to extract data from. Using this <a href="https://en.wikipedia.org/wiki/Academy_Award_for_Best_Picture" target="_blank">Academy Award for Best Picture</a> page, I was able to get the year, title, distributor, producers, and whether it won or not. 
 
 Still missing some data, a friend of mine recommended using an API from <a href="http://www.omdbapi.com" target="_blank">The Open Movie Database</a>. This had most of the information I needed such as, the genres, IMDb rating, runtime, directors, actors, writers, and box office earnings (missing for most old films). The OMDb API has much more information if you're curious and want to check it out.
 
+Long story short, I had to check the API's Terms of Use to see if it was alright to extract data from it. Found out that it is in fact alright for me to use it as long as I'm not gaining money from posts I make using their data. I know... I know... you were dying to pay me to keep writing data science blog posts huh? Well it's a bummer that I can't take any money from you or anyone reading this.
 
 
 #### Tag, You're It
-You can do this too by using BeautifulSoup on Python. Using the HTML parser, you can webscrape the year and title right off of the table in the Wikipedia page <a href="https://en.wikipedia.org/wiki/Academy_Award_for_Best_Picture" target="_blank">(link)</a>. Finding out whether it won or not is trickier, you want to find a way where it identifies when the title is highlighted (winner) versus when it's not (nominee). For the distributor and producers, you'll have to webscrape the Wikipedia link to the film and go through there to identify the distributors and producers for each film.
+You can gather data too by using BeautifulSoup on Python. Using the HTML parser, you can webscrape the year and title right off of the table in the Wikipedia page <a href="https://en.wikipedia.org/wiki/Academy_Award_for_Best_Picture" target="_blank">(link)</a>. Finding out whether it won or not is trickier, you want to find a way where it identifies when the title is highlighted (winner) versus when it's not (nominee). For the distributor and producers, you'll have to webscrape the Wikipedia link to the film and go through there to identify the distributors and producers for each film.
 
 For the OMDb API, you'll have to request a key (super easy). Again, using BeautifulSoup and your API key, pass through all the films' titles and years released. The API should output the necessary information - you just need to extract it.
-
 
 
 #### Data Cleaning
@@ -76,7 +76,9 @@ Convert if necessary. Create a dataframe with all of them. Should look like the 
 After gathering all the data I needed, I wanted to share some quick highlights that I learned! Some are basic information, others are more interesting! I hope you learn something just as much as me!
 
 Number of observations (films): 575
+
 Winners: 91
+
 Nominees: 484
 
 
@@ -92,6 +94,8 @@ Who directed the most films by decade?
 - 2010s: Steven Spielberg (4)
 - 2020s: Denis Villenueve (2)
 
+![Figure]({{site.url}}/{{site.baseurl}}/assets/img/didyouknow.jpg)
+
 Top 10 genres among Best Picture winners:
 1. Drama (82)
 2. Romance (22)
@@ -103,8 +107,6 @@ Top 10 genres among Best Picture winners:
 8. Family & Thriller (6)
 9. Music (4)
 10. Mystery, Action, & Sport (3)
-
-![Figure]({{site.url}}/{{site.baseurl}}/assets/img/didyouknow.jpg)
 
 Top Best Picture Directors (nominated/winners):
 1. William Wyler (13)
@@ -143,10 +145,10 @@ There are a lot more highlights but for the sake of this post, those are the one
 ![Figure]({{site.url}}/{{site.baseurl}}/assets/img/2025oscars.jpg)
 
 ## Summary
-As far as I observe, none of the categorical variables has a strong influence on whether or not a film wins the Academy Award for Best Picture. The distributor has a slight effect; if a film has one of the top distributors for their film, they are more likely to win Best Picture. However, for the rest of the categorical variables there wasn't a strong influence. It is mere talent on the film's team for winning Best Picture and maybe a bit of luck.
+As far as I observe, none of the categorical variables have a strong influence on whether or not a film wins the Academy Award for Best Picture. The distributor has a slight effect; if a film has one of the top distributors for their film, they are more likely to win Best Picture. However, for the rest of the categorical variables there wasn't a strong influence. It is mere talent on the film's team for winning Best Picture and maybe a bit of luck.
 
 Among the continuous variables, a film is more likely to win if their IMDb rating is 8 or higher. The runtime makes no difference.
 
-I am sure that if we were to retrieve data for ALL films released and whether or not they were nominated for Best Picture, we could find greater results. But what determines the winner among the nominees is up to the judges... and maybe a bit of luck.
+I am sure that if we were to retrieve data for ALL films released and whether or not they were nominated for Best Picture, we could find greater results. But what determines the winner among the nominees is up to the judges... and maybe a bit of luck. Stay tune for next time where we'll dive a little deeper!
 
-If you would like to see the Academy Award for Best Picture winners ranked, feel free to follow this <a href="https://editorial.rottentomatoes.com/guide/oscars-best-and-worst-best-pictures/" target="_blank">Rotten Tomatoes</a> page. The following link will also take you to my <a href="https://github.com/LiztheWz/filmcode" target="_blank">Github</a> if you'd like to take a look at the code! Happy watching!
+Again, all credit goes to Wikipedia and OMDb's API and any other third party resources they may have used. If you would like to see the Academy Award for Best Picture winners ranked, feel free to follow this <a href="https://editorial.rottentomatoes.com/guide/oscars-best-and-worst-best-pictures/" target="_blank">Rotten Tomatoes</a> page. The following link will also take you to my <a href="https://github.com/LiztheWz/filmcode" target="_blank">Github</a> if you'd like to take a look at the code! Happy watching!
