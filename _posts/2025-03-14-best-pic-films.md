@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "And the Oscar Goes To..."
-description: "me, who spent countless of hours on this project. Just kidding! But seriously, what determines if a movie gets nominated and wins the Academy Award's Best Picture? Is it luck? Or is it calculated? Let's find out..."
+description: "me, who spent countless of hours on this project. Just kidding! But seriously, what determines if a movie gets nominated and wins the Academy Award's Best Picture? Is it luck? Can it be predicted? Let's find out together..."
 image: /assets/img/oscars.jpg
 ---
 
@@ -13,7 +13,6 @@ image: /assets/img/oscars.jpg
 I watched a lot of movies growing up with my parents. But not the fairytale princess movies. We're talking about every type of genre with basically every type of accent you could think of. The way for my parents to learn and understand English, was watching movies. My siblings and I would join and help translate along the way if they ever had any questions. By now, my parents are better at understanding a British accent than me...
 
 But because I grew up watching so many movies, I became really curious about them. How are they made? What goes down behind the scenes? What does the writing process look like? Stuff like that. If you're a film fanatic, then you get it.
-
 One of my never-ending questions is: what makes a film win the Best Picture award? Is there a specific trend? Or is it just pure opinion and luck? So in this blog post, we're going to dive deep into the question: What features (if any) contribute to a film winning the Academy Award for Best Picture?
 
 #### The Features
