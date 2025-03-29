@@ -33,7 +33,7 @@ There's A LOT that goes into making a movie. But for both of our sakes, we're on
 
 Hopefully just by looking at these, we can figure out whether or not there's a pattern.
 
-
+![Figure]({{site.url}}/{{site.baseurl}}/assets/img/datacollection.jpg)
 
 #### Data Collection
 This is the part that I think every data scientist or analyst underestimates. It can't be THAT hard right? WRONG. Get ready to get your hands dirty during this process. 
