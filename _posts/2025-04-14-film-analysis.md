@@ -47,14 +47,14 @@ Francis Ford Coppola takes the lead with half the films he has written winning B
 #### Producers
 Producers, unlike the directors, deal with the practical execution of the film. Hence, all the logistical planning, hiring, and financial management falls under their roof. The process of film-making is no joke so these guys have a pretty big responsibility under their belt.
 
-Again, the same process of calculating for proportion was done.
+Again, the same process of calculating the proportion was done.
 
 ![Figure]({{site.url}}/{{site.baseurl}}/assets/img/producer_proportion.png)
 
 First place goes to Arnon Milchan, with 40% of films winning. Second place goes to Brad Pitt (surprising for me too).
 
 #### Distributors
-The last feature we'll be focusing for the sake of this post's length (I don't want to keep you reading for too long) are the distributors. The only key difference between this feature and the others is that distributors are companies rather than people. I was a little puzzled with how to explore this feature, so I calculated the number of film nominees and winners produced under each company.
+The last feature we'll be focusing on are the distributors. The only key difference between this feature and the others is that distributors are companies rather than people. I was a little puzzled with how to explore this feature, so I calculated the number of film nominees and winners produced under each company.
 
 ![Figure]({{site.url}}/{{site.baseurl}}/assets/img/distributor_counts.png)
 
@@ -101,4 +101,4 @@ I don't support gambling, but if you were to place your bets in - I would look a
 I hope you've had as much fun as me in this data journey! My invitation to you would be to share what you've learned about the Oscars with family and friends! Show them the (<a href="https://lizthewz-filmcode-main-xezj7n.streamlit.app/" target="_blank">Streamlit</a>) and have them explore as well. 
 
 Feel free to look at my EDA code:
-Github: https://github.com/LiztheWz/filmcode
+Github: (<a href="https://github.com/LiztheWz/filmcode" target="_blank">Film EDA</a>)
