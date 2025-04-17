@@ -1,6 +1,6 @@
 ---
 layout: post
-description: "Let's roll out the red carpet for some good old EDA (Exploratory Data Analysis) on Best Picture winners!"
+description: "Let's roll out the red carpet for some good old EDA on Best Picture winners!"
 title:  "Lights, Camera, Analysis!"
 image: /assets/img/oscar-picture.jpg
 ---
@@ -26,11 +26,11 @@ As we can see from the graph (and from the previous post), drama is the genre th
 
 #### Directors
 
-Directors are the visionaries of film-making; they provide the artistic vision. So of course, we have to explore into which directors get nominated and win the most. The way we can do this is to calculate the proportion of wins for each director. In other words, divide the number of films that won Best Picture by the total number of films they were nominated for. 
+Directors are the visionaries of film-making; they provide the artistic vision. So of course, we have to explore into which directors get nominated and win the most. The way we can do this is to calculate the proportion of wins for each director.
 
 However, we run into a messy problem. Let's say that someone directs a movie for the first time and somehow by extreme luck, they win Best Picture. Their proportion for wins would be 100%. Not very helpful, right? So we filter for directors that have AT LEAST 5 nominated films. This way we can calculate a more realistic proportion.
 
-The following graph shows the top ten directors for highest proportion of wins. Note, some of these directors are deceased, but still appear due to their proportion of wins.
+The following graph shows the top ten directors for highest proportion of wins.
 
 ![Figure]({{site.url}}/{{site.baseurl}}/assets/img/director_proportion.png)
 
@@ -42,7 +42,7 @@ Being able to write a compelling film is a huge task to undertake. The plot capt
 
 ![Figure]({{site.url}}/{{site.baseurl}}/assets/img/writer_proportion.png)
 
-Francis Ford Coppola takes the lead with half the films he has written winning Best Picture. Following him is Billy Wilder at 29%, and Ethan Coen, Joel Coen, Steven Zaillian, and William Shakespear at 20%.
+Francis Ford Coppola takes the lead with half the films he has written winning Best Picture.
 
 #### Producers
 Producers, unlike the directors, deal with the practical execution of the film. Hence, all the logistical planning, hiring, and financial management falls under their roof. The process of film-making is no joke so these guys have a pretty big responsibility under their belt.
@@ -51,18 +51,52 @@ Again, the same process of calculating for proportion was done.
 
 ![Figure]({{site.url}}/{{site.baseurl}}/assets/img/producer_proportion.png)
 
-First place goes to Arnon Milchan, with 40% of films winning. Second place goes to Brad Pitt (surprising for me too). Then we got, David O. Selznick and Jeremy Kleiner at 25%.
+First place goes to Arnon Milchan, with 40% of films winning. Second place goes to Brad Pitt (surprising for me too).
 
 #### Distributors
 The last feature we'll be focusing for the sake of this post's length (I don't want to keep you reading for too long) are the distributors. The only key difference between this feature and the others is that distributors are companies rather than people. I was a little puzzled with how to explore this feature, so I calculated the number of film nominees and winners produced under each company.
 
 ![Figure]({{site.url}}/{{site.baseurl}}/assets/img/distributor_counts.png)
 
-Looking at the graph initially, I assumed that Paramount Picture would take the lead when it came to winners. However, when I calculated the proportion. This was the result:
+Looking at the graph initially, I assumed that Paramount Picture would take the lead when it came to winners. However, when I calculated the win proportion. This was the result:
 
 ![Figure]({{site.url}}/{{site.baseurl}}/assets/img/distributor_proportion.png)
 
 Turns out, Orion Pictures took first place at a whopping 57%!
 
+#### Streamlit App
+Now, this is only but a small portion of the EDA that went down behind the scenes. It's super fun for the writer (me) to explain everything because I've seen it all. However, it's less fun for the reader (you) because you can only read about it. But I want you to see everything for yourself!
 
+Meet my fellow data science friend, (<a href="https://blog.streamlit.io/streamlit-101-python-data-app/" target="_blank">Streamlit</a>). Streamlit is essentially an app online that allows you to see and explore data that data scientists and analysts have been exploring all along. 
 
+If you click the following link, it should take you to the app I created specifically for this data: Liz's Awesome Oscars App.
+
+You'll be able to discover the following:
+- Top genres over the years
+- Discover the films that each director made
+- See the top genres actors have acted in
+- Discover which films take the win for highest grossing in the decade
+
+This is only but a few of the things you'll be able to do in the app. You'll see that in the app, you'll be able to explore some line graphs, histograms, tables, and bar charts of the data. You'll be able to input or select the specific variables you want to explore as well. For example, you can type in a name in the Director or Actor tab (they have to at least gotten nominated for Best Picture to be displayed) to see all the films they participated in. You can also select a specific distributor in the Distributor tab to see their bar charts. I'll let you play around with it for a while so you too can share my excitement about film data.
+
+#### And the Conclusion Goes To...
+A lot of features go into film-making. And after all this exploration, there's a lot we can learn from them. I don't work in Hollywood, however if I had to create THE perfect film to win the Academy Award for Best Picture next year, it would include the following:
+
+- Runtime: 120 minutes (2 hours)
+- Genres: Drama & Romance
+- Director: Francis Ford Coppola
+- Writer: Francis Ford Coppola
+- Producer: Arnon Milchan
+- Distributor: Orion Pictures
+- Actors: Morgan Freeman, Russell Crowe, & Dustin Hoffman
+
+Ideally, it would achieve:
+- IMDb Rating: at least an 8.0
+- Box Office: around $100,000,000
+
+I don't support gambling, but if you were to place your bets in - I would look away. 
+
+I hope you've had as much fun as me in this data journey! My invitation to you would be to share what you've learned about the Oscars with family and friends! Show them the Streamlit and have them explore as well. 
+
+Feel free to look at my EDA code:
+Github: https://github.com/LiztheWz/filmcode
