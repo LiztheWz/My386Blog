@@ -10,7 +10,7 @@ image: /assets/img/oscar-picture.jpg
 ## Recap
 Hi, there! Welcome back to Part 2! Sorry to have let you in a cliffhanger... but I'm glad you made it back! So let's do a quick recap from last time. Last post, I explained a little bit about my film curiosities and wanted to determine what features (if any) contribute to a film winning the Academy Award for Best Picture. We talked a little bit about my cleaning struggles (I'm not a data Cinderella after all). Then we found some basic summaries about directors, genres, actors, distributors, etc. 
 
-However, we never dove deep to find out if there truly is a correlation or relationships between a film's features and whether they won or not. So in this post, I'll be rolling out the red carpet to some interesting features that won more than others. 
+However, we never dove deep to find out if there truly is a correlation or relationships between a film's features and whether they won Best Picture. So in this post, I'll be rolling out the red carpet for some EDA to answer the mystery question of, "What features (if any) contribute to a film winning the Academy Award for Best Picture? What is the ideal film?"
 
 ![Figure]({{site.url}}/{{site.baseurl}}/assets/img/genre.jpg)
 
@@ -96,7 +96,7 @@ Ideally, it would achieve:
 - IMDb Rating: at least an 8.0
 - Box Office: around $100,000,000
 
-I don't support gambling, but if you were to place your bets in - I would look away. 
+I don't support gambling, but if you were to place your bets in - I would look away.
 
 I hope you've had as much fun as me in this data journey! My invitation to you would be to share what you've learned about the Oscars with family and friends! Show them the (<a href="https://lizthewz-filmcode-main-xezj7n.streamlit.app/" target="_blank">Streamlit</a>) and have them explore as well. 
 
