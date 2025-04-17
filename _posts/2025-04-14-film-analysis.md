@@ -69,7 +69,7 @@ Now, this is only but a small portion of the EDA that went down behind the scene
 
 Meet my fellow data science friend, (<a href="https://blog.streamlit.io/streamlit-101-python-data-app/" target="_blank">Streamlit</a>). Streamlit is essentially an app online that allows you to see and explore data that data scientists and analysts have been exploring all along. 
 
-If you click the following link, it should take you to the app I created specifically for this data: Liz's Awesome Oscars App.
+If you click the following link, it should take you to the app I created specifically for this data: (<a href="https://lizthewz-filmcode-main-xezj7n.streamlit.app/" target="_blank">Liz's Awesome Oscars App</a>).
 
 You'll be able to discover the following:
 - Top genres over the years
@@ -78,6 +78,8 @@ You'll be able to discover the following:
 - Discover which films take the win for highest grossing in the decade
 
 This is only but a few of the things you'll be able to do in the app. You'll see that in the app, you'll be able to explore some line graphs, histograms, tables, and bar charts of the data. You'll be able to input or select the specific variables you want to explore as well. For example, you can type in a name in the Director or Actor tab (they have to at least gotten nominated for Best Picture to be displayed) to see all the films they participated in. You can also select a specific distributor in the Distributor tab to see their bar charts. I'll let you play around with it for a while so you too can share my excitement about film data.
+
+![Figure]({{site.url}}/{{site.baseurl}}/assets/img/best-picture.png)
 
 #### And the Conclusion Goes To...
 A lot of features go into film-making. And after all this exploration, there's a lot we can learn from them. I don't work in Hollywood, however if I had to create THE perfect film to win the Academy Award for Best Picture next year, it would include the following:
@@ -96,7 +98,7 @@ Ideally, it would achieve:
 
 I don't support gambling, but if you were to place your bets in - I would look away. 
 
-I hope you've had as much fun as me in this data journey! My invitation to you would be to share what you've learned about the Oscars with family and friends! Show them the Streamlit and have them explore as well. 
+I hope you've had as much fun as me in this data journey! My invitation to you would be to share what you've learned about the Oscars with family and friends! Show them the (<a href="https://lizthewz-filmcode-main-xezj7n.streamlit.app/" target="_blank">Streamlit</a>) and have them explore as well. 
 
 Feel free to look at my EDA code:
 Github: https://github.com/LiztheWz/filmcode
